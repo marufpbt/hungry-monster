@@ -1,0 +1,30 @@
+.textField{
+	text-align: center;
+	margin: 50px 0;
+}
+input#searchInput {
+    padding: 10px 20px;
+}
+input#searchBtn {
+    padding: 12px 20px;
+    background: #F06C4E;
+    color: #fff;
+    border: #F06C4E;
+}
+#container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+.mealItem {
+    background: #F8F7F5;
+    border-radius: 8px;
+    padding: 0 10px;
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
